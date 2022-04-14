@@ -1,0 +1,30 @@
+{
+  "id": "90aa46f8-ebf1-4e77-ba98-b748f3656749",
+  "uid": "aut-a-iure",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Envisioneer front-end functionalities",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Duis aliquip sunt in fugiat minim duis esse quis elit qui aliqua amet. Est eu ullamco tempor dolor nostrud consectetur veniam sint ipsum.",
+        "spans": []
+      }
+    ],
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+    }
+  }
+}
