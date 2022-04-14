@@ -29,7 +29,7 @@ export default function Posts({ posts }: PostsProps) {
                 <div className={styles.posts}>
                     {posts.map(post => (
                         // eslint-disable-next-line react/jsx-key
-                        <Link href={`/posts/${post.slug}`}>
+                        <Link href={`/posts/preview/${post.slug}`}>
                             <a key={post.id}>
                                 <time>
                                     {post.updatedAt}
@@ -67,6 +67,7 @@ export const getStaticProps: GetStaticProps = async ({ previewData }) => {
     return {
         props: {
             posts
-        }
+        },
+        revalidate: 60 * 30 // 30 minutes
     }
 }
